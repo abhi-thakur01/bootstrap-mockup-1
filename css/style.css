@@ -1,0 +1,319 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* HOMEPAGE: 
+        header section:
+            navbar saction 
+        banner section 
+        provide section 
+        about section 
+        appointment section 
+        treatment section 
+        work section 
+        choosr section 
+        book section 
+        article section 
+        footer section
+*/
+
+/* universal section*/
+body{
+    font-family: "Montserrat", sans-serif;
+}
+.btn-all{
+    background-color: #4167d1;
+    color: white;
+}
+.color-dark{
+    color: #142349;
+}
+.light-color{
+    color: #4167d1;
+}
+
+/* header */
+header{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+}
+        /* navbar */
+.nav-size-color li a{
+    color: #142349;
+    font-weight: 500;
+    font-size: 17px;
+  
+}
+.navbar-logo img{
+    height: 100px;
+}
+a.nav-btn{
+    font-size: 18px; 
+}
+.nav-number a{
+    color: #142349;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 500;
+}
+.nav-call img{
+    width: 95%;
+}
+
+
+/* banner section */
+.banner{
+    background-image: url(../images/banner_bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 140px;
+    padding-bottom: 80px;
+}
+
+.banner-content h1{
+        font-weight: 800;
+}
+.banner-content h2{
+    font-weight: 700;
+}
+.banner-content h3{
+    font-weight: 700;
+    border-bottom: 1px solid #eadcdc;
+    padding-bottom: 30px;
+}
+.banner-contact img{
+    height: 70px;
+    display: inline-block;
+
+  
+}
+.banner-contact button{
+    font-size: 25px;
+    border-radius: 0px 0px 20px 0px;
+}
+
+.banner-contact{
+     position: relative;
+}
+.banner-position{
+    position: absolute;
+    left: 180px;
+
+}
+/* provide section */
+.provide-card img{
+    height: 60px;
+}
+.provide-card:hover{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    transition: 0.3s ease-in-out;
+}
+
+/* about section */
+.about-content p{
+    width: fit-content; 
+    background-color: #fff6fa;
+}
+.about-content h1{
+    font-size: 48px;
+    font-weight: 700;
+}
+.about-para p{
+    background-color: white;
+}
+.about-btn button{
+    background-color: #4167d1;
+}
+.stethoscope-img img{
+    height: 125px;
+}
+.about-btn{
+    position: relative;
+}
+.stethoscope-img{
+    position: absolute;
+    left: 440px;
+    bottom: -55px;
+}
+/* appointment section */
+
+.appointment{
+    background-color: #0d2b55;
+    margin-top: 130px;
+}
+.appointment-img img{
+    height: 260px;
+    margin-top: -80px;
+}
+.arrow img{
+    height: 35px;
+}
+.apoint-btn button{
+    background-color: #4167d1;
+}
+.apoint-btn{
+    border-right: 1px solid white;
+    padding-right: 40px;
+}
+.about-call img{
+    height: 35px;
+}
+/* treatment section */
+.treatment{
+    background-image: url(../images/saction_layer.png);
+}
+.treat-heading h1{
+    font-size: 45px;
+    font-weight: 700;
+}
+.half-width{
+    width: 50%;
+}
+.treatment-img img{
+    height: 300px;
+    border-radius: 30px;
+    /* width: 100% !important; */
+}
+.treatment-img h6{
+    transform: skew(-20deg,0deg);
+    width: fit-content;
+    background-color: #4167d1;
+}
+.treatment-img span{
+    display: inline-block;
+    transform: skew(20deg,0deg);
+}
+
+.treat-btn button{
+    background: transparent;
+}
+
+/* work section */
+.work-heading p{
+    width: fit-content; 
+    background-color: #fff6fa;
+}
+.work-heading h1{
+    font-size: 45px;
+    font-weight: 700;
+}
+.plan-1{
+    background-image: url(../images/plans_1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.plan-2{
+    background-image: url(../images/plans_2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 145px;
+    padding-bottom: 19px;
+}
+.plan-3{
+    background-image: url(../images/plans_3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-left: 250px;
+    padding-right: 50px;
+}
+.plan-4{
+    background-color: #0d2b55;
+}
+.plan-5{
+    background-color: #4167d1;
+    padding: 72px 25px;
+}
+.work-btn button{
+    background-color: #4167d1;
+}
+/* choose section */
+.choose-container{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.choose-container img{
+    margin-top: -50px;
+    height: 145px;
+}
+.choose-padding{
+    padding: 40px 25px;
+}
+/* book section */
+.book-bg{
+    background-image: url(../images/book-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.book-img img{
+    height: 350px;
+}
+.book-contact img{
+    height: 70px;
+    display: inline-block;
+
+  
+}
+.book-contact button{
+    font-size: 25px;
+    border-radius: 0px 0px 20px 0px;
+    background-color: #c31301;
+}
+
+.book-contact{
+     position: relative;
+}
+.book-position{
+    position: absolute;
+    left: 180px;
+
+}
+/* article section */
+.article-btn button{
+    background-color: #4167d1;
+}
+.article-img{
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 150px;
+    padding-bottom: 30px;
+    padding-left: 18px;
+}
+.article-img-1{
+    background-image: url(../images/articles-img-1.png);
+}
+.article-img-2{
+    background-image: url(../images/articles-img-2.jpg);
+}
+.article-img-3{
+    background-image: url(../images/articles-img-3.jpg);
+}
+/* footer-section */
+.fut-bg-1 {
+    background-color: #0d2b55;
+}
+.fut-logo img{
+height: 125px;
+}
+.social-links img{
+    height: 35px;
+}
+.fut-num img{
+    height: 25px;
+}
+.fut-mail img{
+    height: 20px;
+}
+.quick-links ul li{
+    list-style-type: none;
+    padding: 8px 0px;
+}
+.quick-links ul li a{
+    text-decoration: none;
+    color: white;
+}
+.fut-bg-2{
+    background-color: #4167d1;
+}
+form button{
+background-color: #f4cf0a;
+}

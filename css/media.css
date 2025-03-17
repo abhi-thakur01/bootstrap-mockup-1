@@ -1,0 +1,85 @@
+@media screen and (max-width:767px) {
+    .banner-position{
+        left:50px
+    }
+    .banner-content h3 {
+        border-bottom: 0px;
+        padding-bottom: 0px;
+    }
+    .stethoscope-img {
+       
+        left: 184px;
+        bottom: -26px;
+    }
+    .stethoscope-img img{
+        height: 90px;
+        
+    }
+    .arrow{
+        display: none
+    }
+    .appointment-img img {
+        margin-top: -150px;
+        height: 300px;
+    }
+    .full-width{
+        width: 100% !important;
+    }
+    .plan-1{
+        background-position-x: 85%;
+    }
+    .plan-2 {
+
+        padding: 20px;
+}
+.plan-3 {
+    padding: 20px;
+}
+.choose-container img {
+    margin-top: -66px;
+    height: 167px;
+    width: 42%;
+}
+.book-img img {
+    height: 250px;
+}
+.book-position {
+    left: 20px;
+}
+.article-heading h1{
+    font-size: 40px;
+}
+.d-flex input{
+    width: 50%;
+}
+.article-content h4{
+    font-size: 20px;
+}
+.work-heading h1 {
+    font-size: 35px;
+    font-weight: 700;
+}
+.treat-heading h1 {
+    font-size: 40px;
+}
+.about-content h1 {
+    font-size: 34px;
+}
+.social-links img {
+    height: 50px;
+}
+.toggle-bg{
+    background-color: white;
+    border-radius: 8px;
+   
+}
+.toggle-bg li a{
+    padding-left: 15px;
+}
+.display-none{
+    display: none;
+}
+.about.row{
+    flex-direction: column-reverse;
+}
+}
